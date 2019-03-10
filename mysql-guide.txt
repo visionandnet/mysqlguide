@@ -1,0 +1,8 @@
+show databases;
+use databasename;
+
+CREATE TABLE 3dcatalog (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+			product_name VARCHAR(20),
+			wiki VARCHAR(20),
+			link VARCHAR(20),
+			uploaded DATE)
